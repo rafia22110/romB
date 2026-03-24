@@ -1,11 +1,43 @@
-<div align="center">
+# הבריחה מהפירמידה: סוד יציאת מצרים 🏺
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+חדר בריחה אינטראקטיבי לפסח המשלב חידות היסטוריות, חשיבה לוגית וחוויה ויזואלית עתידנית.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 פריסה מהירה (Vercel)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+הפרויקט מוכן לפריסה ב-Vercel בלחיצת כפתור.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. העלו את הקוד למאגר GitHub שלכם.
+2. התחברו ל-Vercel וחברו את המאגר.
+3. **חשוב:** הגדירו את משתני הסביבה (Environment Variables) ב-Vercel:
+   - `GEMINI_API_KEY`: המפתח שלכם ל-Gemini AI.
+   - `APP_URL`: כתובת האתר שלכם (למשל `https://my-escape-room.vercel.app`).
 
-</div>
+## 🛠 פיתוח מקומי
+
+1. התקינו תלויות:
+   ```bash
+   npm install
+   ```
+2. צרו קובץ `.env` והעתיקו אליו את התוכן מ-`.env.example`.
+3. הריצו את שרת הפיתוח:
+   ```bash
+   npm run dev
+   ```
+
+## 🏗 בנייה לייצור
+
+```bash
+npm run build
+```
+התוצר יישמר בתיקיית `dist`.
+
+## ✨ טכנולוגיות
+
+- **React 19** + **Vite**
+- **Tailwind CSS 4**
+- **Framer Motion** (אנימציות)
+- **Lucide React** (אייקונים)
+- **Gemini AI API** (לחידות חכמות)
+
+---
+חג פסח כשר ושמח! 🍷
